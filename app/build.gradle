@@ -1,0 +1,19 @@
+plugins {
+    id 'groovy'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // 3.0.9 appears to yield correct behavior
+//    implementation 'org.codehaus.groovy:groovy-all:3.0.9'
+
+    implementation 'org.codehaus.groovy:groovy-all:3.0.10'
+}
+
+application {
+    mainClass = 'issue12451.App'
+}

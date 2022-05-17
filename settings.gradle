@@ -1,0 +1,2 @@
+rootProject.name = 'issue12451'
+include('app')
